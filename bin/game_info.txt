@@ -1,0 +1,34 @@
+##-----------BATTLE SHIP GAME---------------##
+
+# To run game run Test.java.
+
+# You can change game_input.txt file according to below mentioned points:
+
+-> The first line of the input contains the width and height of the battle area respectively.
+
+-> The second line of the input contains the number of battleships that each player gets (N)
+
+-> Read N lines where each line contains the type of the battleship, its dimensions (width and height) and coordinates of ship for Player-1 and Player-2.
+
+-> The second last line contains the sequence of the target locations of missiles fired by Player-1.
+
+-> The last line contains the sequence of the target locations of missiles fired by Player-2.
+
+# Sample Input:
+5 E
+5
+P(ship type) 1(ship width Player1) A(ship height player1) 1(ship width Player2) A(ship height player2) A1(ship coordinate player1) B1(ship coordinate player2)
+Q 1 1 B1 B3
+Q 2 2 D2 C2
+P 1 A 1 A E1 E1
+P 2 B 1 A A4 C4
+B1 C2 C3 E1 
+A1 A4 A5 
+
+# While running the game you see visual representation of ships placed on Battle Area 
+as '2' for type 'Q' ships(As Q ships have double power than P ships)
+and '1' for type 'P' ships
+
+(**Note=second line of the input contains the number of battleships you must enter that number of ship lines after that )
+
+
