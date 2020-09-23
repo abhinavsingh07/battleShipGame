@@ -1,2 +1,2 @@
-# battleShipGame
+# BattleShipGame
 Small Battle Ship Game 
